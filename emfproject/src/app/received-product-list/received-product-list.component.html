@@ -1,0 +1,39 @@
+<app-delivery-sidebar></app-delivery-sidebar>
+
+
+<main id="main" class="main">
+    <div class="container" style="margin-bottom: 25%;">
+        <div class="row" >
+          <div class="col-sm-12 border border-info m-3">
+            <div class="text-center"><h2>Waiting for delivery</h2></div>
+            <table class="table">
+                <thead>
+                  <tr >
+                    <th scope="col">Id</th>
+                    <th scope="col">Customar Name</th>
+                    <th scope="col">Customar Aria</th>
+                    <th scope="col">Mobile Number</th>
+                    <th scope="col">Product Details</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let ord of order_details; let i = index" > 
+                    <td scope="col">{{i+1}}.</td>
+                    <td scope="col">{{ord.recipientName}}</td>
+                    <td scope="col">{{ord.recipientMobileNo}}</td>
+                    <td scope="col">{{ord.recipientAddress}}</td>
+                    <td scope="col">{{ord.userLocation}}</td>
+                    <td scope="col">{{ord.selectProductType}}</td>
+                    <td scope="col"><button (click)="getUpdateStatus(ord.id)">Delivery done</button></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+</main>
+
+
+

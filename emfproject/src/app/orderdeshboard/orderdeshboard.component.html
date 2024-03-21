@@ -1,0 +1,51 @@
+<app-admin-sidebar></app-admin-sidebar>
+<main id="main" class="main">
+    <div class="container" style="margin-bottom: 25%;">
+        <div class="row" >
+          <div class="col-sm-6 border border-info">
+            <div class="text-center"><h3>All Orders</h3></div>
+            <table class="table">
+                <thead>
+                  <tr >
+                    <th scope="col">Id</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let od of order_details; let i=index">
+                    <th>{{i+1}}</th>
+                    <td>{{od.orderActivityStatus}}</td>
+                    <td>{{od.userLocation}}</td>
+                    <td><a  type="submit" (click)="getBylo(od.userLocation, od.id)" >Delivery Man</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+
+          <div class="col-sm-6 border border-info">
+           <div class="text-center"><h3>Available Deliveryman </h3></div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">location</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let dlms of delivary_man_details">
+                    <th>{{dlms.empId}}</th>
+                    <td>{{dlms.heroName}}</td>
+                    <td>{{dlms.heroLocation}}</td>
+                    <td><button type="submit" (click)="assinDeliMen(dlms.id)" routerLink="/dl_m" style="margin-left: 10px;" class="btn btn-info" > Assign </button></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+</main>
+

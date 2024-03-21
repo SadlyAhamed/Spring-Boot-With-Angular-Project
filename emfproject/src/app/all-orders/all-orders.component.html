@@ -1,0 +1,68 @@
+<app-admin-sidebar></app-admin-sidebar>
+<main id="main" class="main">
+    <div class="container" style="margin-bottom: 10ch;">
+        <h2 class="fw-bold mb-5 text-center mt-3" style="color:#0b0b0b  ">Show order List</h2>
+        <div class="table-responsive">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr class="col1">
+                        <th scope="col">SL</th>
+                        <th scope="col">Customer Name</th>
+                        <th scope="col">Customer Mobile</th>
+                        <th scope="col">Customer Address</th>
+                        <th scope="col">Customer location</th>
+                        <th scope="col">Product Type</th>
+                        <th scope="col">Product Weight</th>
+                        <th scope="col">Number of Item</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Status</th>
+                        <!-- <th scope="col">Delivery Update</th> -->
+                        <th scope="col">Action</th>
+                        <!-- <th scope="col">Action</th> -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="col" *ngFor="let ordetails of order_details; let i=index">
+                        <th>{{i+1}}</th>
+                        <td>{{ordetails.senderName}}</td>
+                        <td>{{ordetails.senderCell}}</td>
+                        <td>{{ordetails.userLocation}}</td>
+                        <td>{{ordetails.recipientName}}</td>
+                        <td>{{ordetails.selectProductType}}</td>
+                        <td>{{ordetails.packageWeight}}</td>
+                        <td>{{ordetails.numberOfItem}}</td>
+                        <td>{{ordetails.payment}}</td>
+                        <td class="status">{{ordetails.orderActivityStatus}}</td>
+                        
+                        
+                        <!-- <td>
+                          
+                            <select class="form-select" [(ngModel)]="ordetails.deliveryUpdate">
+                                <option value="Packaging">Packaging</option>
+                                <option value="Waiting">Waiting</option>
+                                <option value="Delivered">Delivered</option>
+                            </select>
+                        </td>
+
+
+                        <td class="text-center">
+                           
+                            <button type="button" class="btn btn-primary" (click)="updateStatus(ordetails)">
+                                <i class="fas fa-check"></i>
+                            </button>
+                        </td> -->
+
+
+                        <td class="text-center">
+                          <button type="button" class="btn btn-danger" (click)="deleteById(ordetails.id)">
+                            <i class="fa fa-trash"></i>
+                          </button>
+                        </td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>

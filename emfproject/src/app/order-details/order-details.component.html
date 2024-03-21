@@ -1,0 +1,177 @@
+<app-sidebar></app-sidebar>
+<main id="main" class="main">
+    <div class="container" style="margin-bottom: 10ch;">
+        <div class="border border-info p-4">
+
+            <form class="row g-12" name="main_form" [formGroup]="form" (ngSubmit)="save()" >
+                <div class="text-center bi-box-arrow-in-right">
+                    <h2 style="margin-top: 20px;">
+                        Booking Here
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12  bi-box-arrow-in-right p-3">
+                        <h6 class="fa-regular fa-square-info" style="margin-top: 35px; ">
+                            Sender Details
+                        </h6>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputName5" class="form-label">Sender Name:</label>
+                        <input type="text" class="form-control" id="inputName5" formControlName="senderName">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputState" class="form-label">Sender Location</label>
+                        <select id="inputState" class="form-select" formControlName="userLocation">
+                            <option value="Select"  selected>Select</option>
+                            <option *ngFor="let town of status" value="{{town.place}}">{{town.place}}</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="payment1" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="email" formControlName="email">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputName5" class="form-label">Sender Mobile:</label>
+                        <input type="text" class="form-control" id="inputName5" formControlName="senderCell">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputPassword5" class="form-label">Sender Full Address </label>
+                        <textarea class="form-control" id="inputPassword5"
+                            formControlName="SenderAddress"></textarea>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12  bi-box-arrow-in-right p-3">
+                        <h6 class="fa-regular fa-square-info" style="margin-top: 35px; ">
+                            Recipient Details
+                        </h6>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="inputName5" class="form-label">Recipient Name:</label>
+                        <input type="text" class="form-control" id="inputName5" formControlName="recipientName">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="inputState" class="form-label">Recipient Location</label>
+                        <select id="inputState" class="form-select" formControlName="recipientLocation">
+                            <option value="Select"  selected>Select</option>
+                            <option *ngFor="let town of status" value="{{town.place}}">{{town.place}}</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="mobile" class="form-label">Recipient Mobile No.</label>
+                        <input type="text" class="form-control" id="mobile" formControlName="recipientMobileNo">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputPassword5" class="form-label">Recipient Address </label>
+                        <textarea class="form-control" id="inputPassword5" formControlName="recipientAddress"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12  bi-box-arrow-in-right p-3">
+                        <h6 class="fa-regular fa-square-info" style="margin-top: 35px; ">
+                            Parcel Details
+                        </h6>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="selectProductType8" class="form-label">Select Product Type</label>
+                        <select id="selectProductType8" class="form-select" formControlName="selectProductType">
+                            <option value="Document" selected>Document</option>
+                            <option value="Parcel">Parcel</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Foods">Foods</option>
+                            <option value="Medeicine">Medeicine</option>
+                            <option value="Fragile_goods">Fragile_goods</option>
+
+
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="packageWeight7" class="form-label">Package weight (KG)</label>
+                        <select id="packageWeight7" class="form-select" formControlName="packageWeight">
+                            <option value="Select Weight" selected>Select Weight</option>
+                            <option value="Up_to_1kg">Up to 1kg</option>
+                            <option value="1-2kg">1-2kg</option>
+                            <option value="2-3kg">2-3kg</option>
+                            <option value="3-4kg">3-4kg</option>
+                            <option value="5-6kg">5-6kg</option>
+                            <option value="6-7kg">6-7kg</option>
+                            <option value="7-8kg">7-8kg</option>
+                            <option value="8-9kg">8-9kg</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="numberOfItem5" class="form-label">Number Of Item</label>
+                        <input type="text" class="form-control" id="numberOfItem5" formControlName="numberOfItem">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="payment1" class="form-label">Payment</label>
+                        <input type="text" class="form-control" id="payment1" formControlName="payment">
+                    </div>
+                  
+                </div>
+
+                <div class="col-md-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+
+                <div class="text-center m-2">
+                    <button type="submit" style="width: 25rem; color:#ffffff ;background-color:#095d1c "
+                        class="btn btn-success btn-block mb-4"> {{isEdit?'Update':
+                        'Save'}} </button>
+                    <button type="reset" style="width: 25rem; color:#ffffff ;background-color:#636464 "
+                    class="btn btn-success btn-block mb-4">Reset</button>
+                </div>
+
+            </form>
+        </div>
+         <h2 class="fw-bold mb-5 text-center mt-3" style="color:#0b0b0b  ">Show order List</h2>
+    <div class="table-responsive">
+      <table class="table table-stribed " >
+        <thead>
+          <tr>
+            <th scope="col" >SL</th>
+            <th scope="col">Recipient</th>
+            <th scope="col">Mobile</th>
+            <th scope="col">Recipient Address</th>
+            <th scope="col">Sender location</th>
+            <th scope="col">Package Type</th>
+            <th scope="col">Package Weight</th>
+            <th scope="col">Number Of Item</th>
+            <th scope="col">payment</th>
+            <th scope="col">Status</th>  
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let ordetails of order_details; let i=index">
+            <th scope="col">{{i+1}}</th>
+            <td>{{ordetails.recipientName}}</td>
+            <td>{{ordetails.recipientMobileNo}}</td>
+            <td>{{ordetails.recipientAddress}}</td>
+            <td>{{ordetails.userLocation}}</td>
+            <td>{{ordetails.selectProductType}}</td>    
+            <td>{{ordetails.packageWeight}}</td>
+            <td>{{ordetails.numberOfItem}}</td>
+            <td>{{ordetails.payment}}</td>
+            <td class="status">{{ordetails.orderActivityStatus}}</td>
+            <td class="text-center">
+                <button type="button" style="margin-right: 10px;" class="btn btn-warning" (click)="edit(ordetails)">
+                  <i class="fa fa-edit"></i>
+                </button>
+                <button type="button" class="btn btn-danger" (click)="deleteById(ordetails.id)">
+                  <i class="fa fa-trash"></i>
+                </button>
+              </td>
+          </tr>
+        </tbody>
+      </table> 
+       </div> 
+    </div>
+</main>

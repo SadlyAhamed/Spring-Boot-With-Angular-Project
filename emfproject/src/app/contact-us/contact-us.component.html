@@ -1,0 +1,31 @@
+<app-sidebar></app-sidebar>
+<main id="main" class="main">
+    <div class="container" style="margin-bottom: 10ch;">
+        <div class="border border-info p-4 mt-2">
+            <div ng-controller="contactController">
+                <h1>Contact Us</h1>
+                <form>
+                    <table class="table table-striped">
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" name="name" ng-model="formData.name" required class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" ng-model="formData.email" required class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Phone Number:</label></td>
+                            <td><input type="tel" id="phone" name="phone" ng-model="formData.phone" required class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message:</label></td>
+                            <td><textarea id="message" name="message" ng-model="formData.message" required class="form-control"></textarea></td>
+                        </tr>
+                    </table>
+                    <button type="submit" ng-click="submitForm()" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>

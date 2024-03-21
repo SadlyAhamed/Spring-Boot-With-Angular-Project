@@ -1,0 +1,38 @@
+<app-delivery-sidebar></app-delivery-sidebar>
+
+
+<main id="main" class="main">
+    <div class="container" style="margin-bottom: 25%;">
+        <div class="row" >
+          <div class="col-sm-12 border border-info m-3">
+            <div class="text-center"><h2>Successfully Delivered List</h2></div>
+            <table class="table">
+                <thead>
+                  <tr >
+                    <th scope="col">Id</th>
+                    <th scope="col">Sender Location</th>
+                    <th scope="col">Payment</th>
+                    <th scope="col">weight</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Address</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let ord of order_details; let i = index" > 
+                    <td scope="col">{{i+1}}.</td>
+                    <td scope="col">{{ord.userLocation}}</td>
+                    <td scope="col">{{ord.payment}}</td>
+                    <td scope="col">{{ord.packageWeight}}</td>
+                    <td scope="col">{{ord.orderActivityStatus}}</td>
+                    <td scope="col">{{ord.recipientLocation}}</td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+</main>
+
+
+
