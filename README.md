@@ -24,14 +24,20 @@ A Courier management system utilizing Spring Boot, Angular, and MySQL is designe
 ### Front-End Development:
 - [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/html5.svg" width="40" height="40">](https://github.com/SadlyAhamed)
   
-- [<img src="https://github.com/SadlyAhamed/fatemazohor/blob/main/svg/css3.svg" width="40" height="40">](https://github.com/fatemazohor) 
-- [<img src="https://github.com/SadlyAhamed/fatemazohor/blob/main/svg/bootstrap-logo-shadow.png" width="40" height="40">](https://github.com/fatemazohor)
-- [<img src="https://github.com/SadlyAhamed/fatemazohor/blob/main/svg/javascript.svg" width="40" height="40">](https://github.com/fatemazohor)
-- [<img src="https://github.com/SadlyAhamed/fatemazohor/blob/main/svg/angular.svg" width="40" height="40">](https://github.com/fatemazohor)
+- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/css3.svg" width="40" height="40">](https://github.com/SadlyAhamed)
+  
+- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/bootstrap-logo-shadow.png" width="40" height="40">](https://github.com/SadlyAhamed)
+  
+- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/javascript.svg" width="40" height="40">](https://github.com/SadlyAhamed)
+  
+- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/angular.svg" width="40" height="40">](https://github.com/SadlyAhamed)
+  
 ### Back-End Development
-- [<img src="https://github.com/fatemazohor/fatemazohor/blob/main/svg/spring_boot.svg" width="40" height="40">](https://github.com/fatemazohor)
-- [<img src="https://github.com/fatemazohor/fatemazohor/blob/main/svg/hibernate.png" width="40" height="40">](https://github.com/fatemazohor)
-- [<img src="https://github.com/fatemazohor/SwingSMEManagement/blob/main/Screenshot/mysql.png" width="40" height="40">](https://github.com/fatemazohor) 
+- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/spring_boot.svg" width="40" height="40">](https://github.com/SadlyAhamed)
+  
+- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/hibernate.png" width="40" height="40">](https://github.com/SadlyAhamed)
+  
+-  [<img src="Screensort/mysql.png" width="40" height="40">](https://github.com/SadlyAhame) MySQL
 
 **==== Software And Tools Required ======**
 - :  MySQL
