@@ -102,5 +102,5 @@ login to user and Delivery Man by role.
 
 **"Suggestions and project Improvements are always Invited!"**  
 Thanks a lot,    
-Project Leader  
+Project By  
 [Sheikh Sadly Ahamed](https://github.com/SadlyAhamed)
