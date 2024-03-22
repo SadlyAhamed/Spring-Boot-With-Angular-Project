@@ -37,7 +37,7 @@ A Courier management system utilizing Spring Boot, Angular, and MySQL is designe
   
 - [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/hibernate.png" width="40" height="40">](https://github.com/SadlyAhamed)
   
--  [<img src="Screensort/mysql.png" width="40" height="40">](https://github.com/SadlyAhame) MySQL
+-  [<img src="https://github.com/SadlyAhamed/Swing-Pos-System/blob/main/Screensort/mysql.png" width="40" height="40">](https://github.com/SadlyAhame) MySQL
 
 **==== Software And Tools Required ======**
 - :  MySQL
