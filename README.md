@@ -22,8 +22,8 @@ A Courier management system utilizing Spring Boot, Angular, and MySQL is designe
 
 ## Technologies used:-
 ### Front-End Development:
-- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/Screenshots/svg
-/html5.svg" width="40" height="40">](https://github.com/SadlyAhamed)
+- [<img src="https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/svg/html5.svg" width="40" height="40">](https://github.com/SadlyAhamed)
+  
 - [<img src="https://github.com/SadlyAhamed/fatemazohor/blob/main/svg/css3.svg" width="40" height="40">](https://github.com/fatemazohor) 
 - [<img src="https://github.com/SadlyAhamed/fatemazohor/blob/main/svg/bootstrap-logo-shadow.png" width="40" height="40">](https://github.com/fatemazohor)
 - [<img src="https://github.com/SadlyAhamed/fatemazohor/blob/main/svg/javascript.svg" width="40" height="40">](https://github.com/fatemazohor)
