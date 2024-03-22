@@ -17,8 +17,7 @@ A Courier management system utilizing Spring Boot, Angular, and MySQL is designe
 6. Handle Customer Inquiries: Address customer inquiries, complaints, and requests related to deliveries.
 7. Administrate Users: Manage user accounts, permissions, and access levels within the system.
 8. Handle Payments: Process payments, invoices, and financial transactions related to deliveries.
-9. Manage Vehicles: Maintain information about vehicles used for deliveries, including maintenance schedules and usage logs.
-10. Monitor Compliance: Ensure compliance with regulations and standards related to courier 
+9. Monitor Compliance: Ensure compliance with regulations and standards related to courier 
 
 ## Technologies used:-
 ### Front-End Development:
@@ -57,55 +56,55 @@ STEP 3: Use MySQL workbench to import data from dump folder, sql file.
 Project Preview.
 ---------------------------------------------------------------------
 :pushpin: Login page for Admin:
+Login to the administrator user as : mysql -u <username> -p (Enter Password if asked)
 ![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/techpack1.JPG)
-:pushpin: Dashboard page for Admin:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp2.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp3.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp4.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp5.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp6.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp7.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp8.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp9.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp10.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp11.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp12.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp13.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp14.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp15.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp16.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp17.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp18.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp19.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp20.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp21.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp22.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp23.JPG)
-:pushpin: Dashboard page 2:
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/tp24.JPG)
+
+:pushpin: Dashboard :
+![ Home page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Courier%20Companny/Screenshot%202024-03-21%20191228.png)
+
+:pushpin: About Page :
+![ About page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Courier%20Companny/Screenshot%202024-03-21%20191257.png)
+
+:pushpin: Persion to persion Delivery:
+![ Create a Order page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Courier%20Companny/Screenshot%202024-03-21%20191435.png)
+
+:pushpin: Customer Registraction:
+![ Corporate Customar Registraction page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Courier%20Companny/Screenshot%202024-03-21%20191450.png)
+
+
+:pushpin: Registraction :
+login to user and Delivery Man by role.
+![ Login page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Admin/Screenshot%202024-03-21%20193403.png)
+
+:pushpin: Admin Home page :
+![ Admin Home Page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Admin/Screenshot%202024-03-21%20191536.png)
+
+:pushpin:Delivery Man Registraction :
+![ Registraction page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Admin/Screenshot%202024-03-21%20193259.png)
+
+:pushpin: Office Executive Registraction:
+![ Office Executive Registraction page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Admin/Screenshot%202024-03-21%20193315.png)
+
+:pushpin: Assign to Delivery Man :
+![ Order Send Delivery Man page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Admin/Screenshot%202024-03-21%20193333.png)
+
+:pushpin: Show Order List:
+![ Order List page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Admin/Screenshot%202024-03-21%20193346.png)
+
+:pushpin: Create Courier Hub:
+![Courier Hub ](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Admin/Screenshot%202024-03-21%20193802.png)
+
+
+
+
+:pushpin: product Weating for Delivery:
+![ Weating for Delivery page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Delivery%20man/Screenshot%202024-03-21%20193420.png)
+
+:pushpin: Succesfully Delivery product:
+![ Succesfully Delivery page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Delivery%20man/Screenshot%202024-03-21%20193431.png)
+
 
 **"Suggestions and project Improvements are always Invited!"**  
 Thanks a lot,    
 Project Leader  
-[Fatema Tuz Zohora](https://github.com/fatemazohor)
+[Sheikh Sadly Ahamed](https://github.com/SadlyAhamed)
