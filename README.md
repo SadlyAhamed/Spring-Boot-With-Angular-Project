@@ -55,10 +55,6 @@ STEP 3: Use MySQL workbench to import data from dump folder, sql file.
 
 Project Preview.
 ---------------------------------------------------------------------
-:pushpin: Login page for Admin:
-Login to the administrator user as : mysql -u <username> -p (Enter Password if asked)
-![ Login page](https://github.com/fatemazohor/MerchandiseManagement--Angular-Spring-Boot/blob/main/screenshot/techpack1.JPG)
-
 :pushpin: Dashboard :
 ![ Home page](https://github.com/SadlyAhamed/Spring-Boot-With-Angular-Project/blob/main/Screenshots/Courier%20Companny/Screenshot%202024-03-21%20191228.png)
 
